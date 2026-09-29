@@ -28,11 +28,11 @@ pip install -r requirements.txt
 
 ## 2. Demo 
 
-Run 
+Run to collect a processed dataset 
 ``` bash
 python src/image_preprocess.py
 ```
-To collect a preprocessed dataset 
+
 
 After:
 ``` bash
