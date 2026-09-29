@@ -21,7 +21,7 @@ git clone https://github.com/Preacho/AI-Image-Detection-Model.git
 2. Install python packages using the following command
 
 ``` bash
-pip install -r "requirements.txt
+pip install -r requirements.txt
 ```
 3. Install dataset from the following link [https://www.kaggle.com/datasets/tristanzhang32/ai-generated-images-vs-real-images/data]. Move the dataset into the repository.
 
