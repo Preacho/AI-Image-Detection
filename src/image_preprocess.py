@@ -1,9 +1,5 @@
 import os
 from PIL import Image, ImageFile
-import glob
-import seaborn as sns 
-import imghdr 
-import cv2 
 from tqdm import tqdm
 import numpy as np
 import pandas as pd 
