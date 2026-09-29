@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 import load_data
 # ---------- CONFIGURATION ----------
-PREPROCESSED_DIR = "preprocessed_dataset"
+PREPROCESSED_DIR = "processed_dataset"
 IMG_WIDTH = 300
 IMG_HEIGHT = 300
 RANDOM_STATE = 42

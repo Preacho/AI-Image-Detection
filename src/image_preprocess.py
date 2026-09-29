@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd 
 
 
-directory = "preprocessed_dataset"
+directory = "processed_dataset"
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 #Make preprocessed directory
@@ -40,8 +40,8 @@ if(not os.path.exists(directory)):
 train_path = "dataset/train"
 test_path = "dataset/test"
 
-save_train_path = "preprocessed_dataset/train"
-save_test_path = "preprocessed_dataset/test"
+save_train_path = "processed_dataset/train"
+save_test_path = "processed_dataset/test"
 
 
 

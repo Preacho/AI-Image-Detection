@@ -31,8 +31,8 @@ def train_neural_network():
     img_height = 300
     batch_size = 64
     
-    train_directory = "preprocessed_dataset/train"
-    test_directory = "preprocessed_dataset/test"
+    train_directory = "processed_dataset/train"
+    test_directory = "processed_dataset/test"
 
     data_train = define_data(
         train_directory, 

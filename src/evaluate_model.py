@@ -15,8 +15,8 @@ import tensorflow as tf
 
 warnings.filterwarnings("ignore", category=UserWarning)
 
-TRAIN_DIR  = "preprocessed_dataset/train"
-TEST_DIR   = "preprocessed_dataset/test"
+TRAIN_DIR  = "processed_dataset/train"
+TEST_DIR   = "processed_dataset/test"
 MODELS_DIR = "models"
 OUTPUT_XLSX = "results.xlsx"
 
@@ -263,6 +263,17 @@ def evaluate_one(name, model, X, y_true, class_names):
     f1   = f1_score(y_true, y_pred, zero_division=0)
     auc  = roc_auc_score(y_true, y_prob) if y_prob is not None else np.nan
 
+    cm = confusion_matrix(y_true, y_pred)
+    # Assumes binary, class index 1 = "positive" (AI)
+    tn, fp, fn, tp = cm.ravel()
+
+    # Derived metrics (handy for PowerBI cards)
+    specificity = tn / (tn + fp) if (tn + fp) > 0 else 0.0
+    npv         = tn / (tn + fn) if (tn + fn) > 0 else 0.0   
+    fpr         = fp / (fp + tn) if (fp + tn) > 0 else 0.0
+    fnr         = fn / (fn + tp) if (fn + tp) > 0 else 0.0   
+    balanced    = (rec + specificity) / 2.0
+    
     metrics = {
         "model":       name,
         "accuracy":    round(acc, 4),

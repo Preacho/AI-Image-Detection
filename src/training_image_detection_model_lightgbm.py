@@ -32,13 +32,13 @@ def train_lightgbm():
     '''
     #Loading Clip features
     X_train_clip = clip_utils.clip_features(
-        "preprocessed_dataset/train",
+        "processed_dataset/train",
         cache_path="clip_train.npz",
         image_size= IMG_SIZE,
         color_mode="grayscale")
     
     X_test_clip = clip_utils.clip_features(
-        "preprocessed_dataset/test",
+        "processed_dataset/test",
         cache_path="clip_test.npz",
         image_size= IMG_SIZE,
         color_mode="grayscale")
