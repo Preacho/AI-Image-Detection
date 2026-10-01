@@ -2,6 +2,9 @@
 
 This project aims to determine effective models that can discern AI-Generated Images from a random set of Images. By training the models with a diverse set of image datasets, high accurate predictions were achieved using different machine learning models. 
 
+## Report
+[View the full analysis report](https://preacho.github.io/AI-Image-Detection-Analysis/)
+
 ## Built With
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -43,5 +46,4 @@ python src\training_image_detection_model_randomforest.py ##random forest
 
 ```
 
-## Report
-[View the full analysis report](https://preacho.github.io/AI-Image-Detection-Analysis/)
+
