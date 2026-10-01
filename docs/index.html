@@ -9,8 +9,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <meta name=ProgId content=Word.Document>
 <meta name=Generator content="Microsoft Word 15">
 <meta name=Originator content="Microsoft Word 15">
-<link rel=File-List href="AI-Image-Detection-Analysis_files/filelist.xml">
-<link rel=Edit-Time-Data href="AI-Image-Detection-Analysis_files/editdata.mso">
+<link rel=File-List href="index_files/filelist.xml">
+<link rel=Edit-Time-Data href="index_files/editdata.mso">
 <!--[if !mso]>
 <style>
 v\:* {behavior:url(#default#VML);}
@@ -24,9 +24,9 @@ w\:* {behavior:url(#default#VML);}
   <o:Template>Normal</o:Template>
   <o:LastAuthor>pcq</o:LastAuthor>
   <o:Revision>2</o:Revision>
-  <o:TotalTime>258</o:TotalTime>
-  <o:Created>2026-10-01T07:51:00Z</o:Created>
-  <o:LastSaved>2026-10-01T07:51:00Z</o:LastSaved>
+  <o:TotalTime>272</o:TotalTime>
+  <o:Created>2026-10-01T08:05:00Z</o:Created>
+  <o:LastSaved>2026-10-01T08:05:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
   <o:Words>1280</o:Words>
   <o:Characters>7300</o:Characters>
@@ -39,11 +39,10 @@ w\:* {behavior:url(#default#VML);}
   <o:AllowPNG/>
  </o:OfficeDocumentSettings>
 </xml><![endif]-->
-<link rel=dataStoreItem href="AI-Image-Detection-Analysis_files/item0031.xml"
-target="AI-Image-Detection-Analysis_files/props032.xml">
-<link rel=themeData href="AI-Image-Detection-Analysis_files/themedata.thmx">
-<link rel=colorSchemeMapping
-href="AI-Image-Detection-Analysis_files/colorschememapping.xml">
+<link rel=dataStoreItem href="index_files/item0031.xml"
+target="index_files/props032.xml">
+<link rel=themeData href="index_files/themedata.thmx">
+<link rel=colorSchemeMapping href="index_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:SpellingState>Clean</w:SpellingState>
@@ -1560,18 +1559,18 @@ span.GramE
 	line-height:115%;}
  /* Page Definitions */
  @page
-	{mso-footnote-separator:url("AI-Image-Detection-Analysis_files/header.htm") fs;
-	mso-footnote-continuation-separator:url("AI-Image-Detection-Analysis_files/header.htm") fcs;
-	mso-endnote-separator:url("AI-Image-Detection-Analysis_files/header.htm") es;
-	mso-endnote-continuation-separator:url("AI-Image-Detection-Analysis_files/header.htm") ecs;}
+	{mso-footnote-separator:url("index_files/header.html") fs;
+	mso-footnote-continuation-separator:url("index_files/header.html") fcs;
+	mso-endnote-separator:url("index_files/header.html") es;
+	mso-endnote-continuation-separator:url("index_files/header.html") ecs;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:.5in .5in .5in .5in;
 	mso-header-margin:.5in;
 	mso-footer-margin:.5in;
 	mso-title-page:yes;
-	mso-header:url("AI-Image-Detection-Analysis_files/header.htm") h1;
-	mso-first-header:url("AI-Image-Detection-Analysis_files/header.htm") fh1;
+	mso-header:url("index_files/header.html") h1;
+	mso-first-header:url("index_files/header.html") fh1;
 	mso-paper-source:0;}
 div.WordSection1
 	{page:WordSection1;}
@@ -2047,7 +2046,7 @@ font-family:"Times New Roman",serif'>2. Methodology:<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman",serif'>All models
 were trained and tested on the same image dataset. Images were resized to
-300Ã—300 pixels. Grayscale conversion was applied for the tabular models; the Neural
+300×300 pixels. Grayscale conversion was applied for the tabular models; the Neural
 Network used full RGB. The class distribution is perfectly balanced with a
 total of 30,000 real and 30,000 fake. 80% of the fake and real images were used
 for training and validation, and the remaining 20% was used for testing the
@@ -2058,14 +2057,14 @@ input representations were compared:<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l0 level1 lfo1'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span style='font-family:"Times New Roman",serif'>Raw
 pixels</span></b><span style='font-family:"Times New Roman",serif'>: flattened
-300Ã—300 grayscale arrays (90,000 features) or RGB arrays for the Neural Network<o:p></o:p></span></p>
+300×300 grayscale arrays (90,000 features) or RGB arrays for the Neural Network<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l0 level1 lfo1'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span style='font-family:"Times New Roman",serif'>Pixel
 + FFT</span></b><span style='font-family:"Times New Roman",serif'>: the same
 pixel vector concatenated with 23 hand-crafted frequency features. global
@@ -2075,7 +2074,7 @@ sampling artifacts characteristic of GAN and diffusion decoders.<o:p></o:p></spa
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l0 level1 lfo1'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span style='font-family:"Times New Roman",serif'>FFT
 + CLIP</span></b><span style='font-family:"Times New Roman",serif'>: the 23 FFT
 features concatenated with a 512-dimensional CLIP embedding (<span
@@ -2087,21 +2086,21 @@ that were tested in this study are the following:<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span style='font-family:"Times New Roman",serif'>Random
 Forest: </span></b><span style='font-family:"Times New Roman",serif'>Classical
 Ensemble using raw pixels<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span style='font-family:"Times New Roman",serif'>Random
 <span class=SpellE>Forest_FFT</span>:</span></b><span style='font-family:"Times New Roman",serif'>
 Classical Ensemble using raw pixels and FFT<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span class=SpellE><b><span style='font-family:
 "Times New Roman",serif'>LightGBM</span></b></span><b><span style='font-family:
 "Times New Roman",serif'>: </span></b><span style='font-family:"Times New Roman",serif'>Gradient
@@ -2109,7 +2108,7 @@ Boosting using raw pixels<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span class=SpellE><b><span style='font-family:
 "Times New Roman",serif'>LightGBM_FFT</span></b></span><b><span
 style='font-family:"Times New Roman",serif'>: </span></b><span
@@ -2118,7 +2117,7 @@ and FFT<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span class=SpellE><b><span style='font-family:
 "Times New Roman",serif'>LightGBM_FFT_CLIP</span></b></span><b><span
 style='font-family:"Times New Roman",serif'>: </span></b><span
@@ -2127,7 +2126,7 @@ CLIP<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l3 level1 lfo2'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol'><span style='mso-list:Ignore'>Â·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'><span style='mso-list:Ignore'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span style='font-family:"Times New Roman",serif'>Neural
 Network: </span></b><span style='font-family:"Times New Roman",serif'>CNN that<b>
 </b>uses raw RGB pixels<o:p></o:p></span></p>
@@ -2543,16 +2542,16 @@ models:<o:p></o:p></span></p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-list:l1 level1 lfo7'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>Â·<span
+Symbol;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span style='font-family:"Times New Roman",serif'>Random
 Forest Models: </span></b><span style='font-family:"Times New Roman",serif'>Random
 Forest models tend to produce more false negatives than false positives. It is
-biased towards predicting an image is Â“realÂ”.<b><o:p></o:p></b></span></p>
+biased towards predicting an image is “real”.<b><o:p></o:p></b></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l1 level1 lfo7'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>Â·<span
+Symbol;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span class=SpellE><b><span style='font-family:
 "Times New Roman",serif'>LightGBM</span></b></span><b><span style='font-family:
@@ -2563,7 +2562,7 @@ false positives. <b><o:p></o:p></b></span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-list:l1 level1 lfo7'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>Â·<span
+Symbol;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><b><span style='font-family:"Times New Roman",serif'>Neural
 Networks:</span></b><span style='font-family:"Times New Roman",serif'> The
@@ -2572,7 +2571,7 @@ negatives. It is biased towards predicting an image is AI-generated.<b><o:p></o:
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-list:l1 level1 lfo7'><![if !supportLists]><span
 style='font-family:Symbol;mso-fareast-font-family:Symbol;mso-bidi-font-family:
-Symbol;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>Â·<span
+Symbol;mso-bidi-font-weight:bold'><span style='mso-list:Ignore'>·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><![endif]><span class=SpellE><b><span style='font-family:
 "Times New Roman",serif'>LightGBM_FFT_CLIP</span></b></span><b><span
@@ -2598,7 +2597,7 @@ class=SpellE>LightGBM_FFT</span> at the same FPR catches only around 40% while
 Random Forest with raw pixels catches at most 25%. Thirdly, all models aside
 from the weakest model <span class=GramE>reaches</span> 100% TPR before 100%
 FPR. The right most points on every curve end at point (1, 1), but the most
-useful operating region is the upper-left corner. The <span class=SpellE>LightGBM_FFT_CLIPÂ’s</span>
+useful operating region is the upper-left corner. The <span class=SpellE>LightGBM_FFT_CLIP’s</span>
 curve hugs the top-left corner tightly that its AUC value of 0.9928 leaves
 almost no room for improvement. The remaining 0.72% of AUC reflects the
 misclassifications on a small number of genuinely ambiguous images. <o:p></o:p></span></p>
@@ -2611,7 +2610,7 @@ of this project supports several conclusions that generalize beyond this
 specific dataset. First, feature quality plays a larger factor in accuracy
 compared to model choice. Adding gradient boosting classifier on CLIP features
 outperforms a CNN on raw pixels by around 9%. In addition, the addition of
-frequency features, which are cheap, are effective in increasing a modelÂ’s
+frequency features, which are cheap, are effective in increasing a model’s
 performance. Adding FFT features on top of a gradient boosting model achieved 80%
 accuracy and 0.889 AUC with no deep learning needed. Nevertheless, classical
 models remain competitive when given good input where the simplest model still
@@ -2644,7 +2643,7 @@ consistent secondary improvement across all classic models. <o:p></o:p></span></
 work should focus on testing more up to date image generation models to see
 whether the current models are still capable of discerning AI-generated and
 human crafted images. In addition, some testing is required to see whether the
-modelsÂ’ ability to discern images created by AI-generators they were never
+models’ ability to discern images created by AI-generators they were never
 trained on. <o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></p>
@@ -2676,9 +2675,9 @@ mso-no-proof:yes'><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="216
  <o:lock v:ext="edit" aspectratio="t"/>
 </v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_i1035" type="#_x0000_t75"
  style='width:267.75pt;height:150.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image001.png" o:title=""/>
+ <v:imagedata src="index_files/image001.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=357 height=201
-src="AI-Image-Detection-Analysis_files/image002.png" v:shapes="Picture_x0020_1"><![endif]></span></b><!--[if gte vml 1]><v:shape
+src="index_files/image002.png" v:shapes="Picture_x0020_1"><![endif]></span></b><!--[if gte vml 1]><v:shape
  id="Picture_x0020_9" o:spid="_x0000_s2050" type="#_x0000_t75" style='position:absolute;
  margin-left:-31.5pt;margin-top:-1518.45pt;width:278.7pt;height:146.25pt;
  z-index:-251679232;visibility:visible;mso-wrap-style:square;
@@ -2687,33 +2686,33 @@ src="AI-Image-Detection-Analysis_files/image002.png" v:shapes="Picture_x0020_1">
  mso-position-horizontal:absolute;mso-position-horizontal-relative:text;
  mso-position-vertical:absolute;mso-position-vertical-relative:page;
  mso-height-percent:0;mso-height-relative:margin'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image003.png" o:title=""/>
+ <v:imagedata src="index_files/image003.png" o:title=""/>
  <w:wrap type="tight" anchory="page"/>
 </v:shape><![endif]--><![if !vml]><img width=372 height=195
-src="AI-Image-Detection-Analysis_files/image004.png" align=left hspace=12
-v:shapes="Picture_x0020_9"><![endif]><b style='mso-bidi-font-weight:normal'><span
-style='font-family:"Times New Roman",serif;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
- id="Picture_x0020_2" o:spid="_x0000_i1034" type="#_x0000_t75" style='width:246.75pt;
- height:151.5pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image005.png" o:title=""/>
+src="index_files/image004.png" align=left hspace=12 v:shapes="Picture_x0020_9"><![endif]><b
+style='mso-bidi-font-weight:normal'><span style='font-family:"Times New Roman",serif;
+mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_2" o:spid="_x0000_i1034"
+ type="#_x0000_t75" style='width:246.75pt;height:151.5pt;visibility:visible;
+ mso-wrap-style:square'>
+ <v:imagedata src="index_files/image005.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=329 height=202
-src="AI-Image-Detection-Analysis_files/image006.png" v:shapes="Picture_x0020_2"><![endif]></span></b><b><span
-style='font-family:"Times New Roman",serif'><span style='mso-tab-count:1'>Â Â Â Â Â Â Â Â Â Â Â  </span></span></b><b
+src="index_files/image006.png" v:shapes="Picture_x0020_2"><![endif]></span></b><b><span
+style='font-family:"Times New Roman",serif'><span style='mso-tab-count:1'>            </span></span></b><b
 style='mso-bidi-font-weight:normal'><span style='font-family:"Times New Roman",serif;
 mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_3" o:spid="_x0000_i1033"
  type="#_x0000_t75" style='width:258.75pt;height:150pt;visibility:visible;
  mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image007.png" o:title=""/>
+ <v:imagedata src="index_files/image007.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=345 height=200
-src="AI-Image-Detection-Analysis_files/image008.png" v:shapes="Picture_x0020_3"><![endif]></span></b><b><span
+src="index_files/image008.png" v:shapes="Picture_x0020_3"><![endif]></span></b><b><span
 style='font-family:"Times New Roman",serif'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'><span
-style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Figure 1 <span
-style='mso-tab-count:7'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Figure
-2 <span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
-style='mso-tab-count:4'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Figure
-3 <span style='mso-tab-count:7'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Figure
+style='mso-tab-count:3'>                                    </span>Figure 1 <span
+style='mso-tab-count:7'>                                                                                 </span>Figure
+2 <span style='mso-tab-count:2'>                     </span><span
+style='mso-tab-count:4'>                                                </span>Figure
+3 <span style='mso-tab-count:7'>                                                                                 </span>Figure
 4<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><b><span style='font-size:16.0pt;line-height:115%;
@@ -2724,22 +2723,22 @@ style='font-size:16.0pt;line-height:115%;font-family:"Times New Roman",serif;
 mso-no-proof:yes'><!--[if gte vml 1]><v:shape id="Picture_x0020_4" o:spid="_x0000_i1032"
  type="#_x0000_t75" style='width:277.5pt;height:160.5pt;visibility:visible;
  mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image009.png" o:title=""/>
+ <v:imagedata src="index_files/image009.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=370 height=214
-src="AI-Image-Detection-Analysis_files/image010.png" v:shapes="Picture_x0020_4"><![endif]><!--[if gte vml 1]><v:shape
+src="index_files/image010.png" v:shapes="Picture_x0020_4"><![endif]><!--[if gte vml 1]><v:shape
  id="Picture_x0020_5" o:spid="_x0000_i1031" type="#_x0000_t75" style='width:276.75pt;
  height:161.25pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image011.png" o:title=""/>
+ <v:imagedata src="index_files/image011.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=369 height=215
-src="AI-Image-Detection-Analysis_files/image012.png" v:shapes="Picture_x0020_5"><![endif]></span></b><b><span
+src="index_files/image012.png" v:shapes="Picture_x0020_5"><![endif]></span></b><b><span
 style='font-size:16.0pt;line-height:115%;font-family:"Times New Roman",serif'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><b><span style='font-size:16.0pt;line-height:115%;
-font-family:"Times New Roman",serif'><span style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
-style='mso-spacerun:yes'>Â Â Â Â Â  </span></span></b><b><span style='font-family:
-"Times New Roman",serif'>Figure 5 <span style='mso-tab-count:7'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
-style='mso-spacerun:yes'>Â Â Â Â Â Â </span><span style='mso-spacerun:yes'>Â </span><span
-style='mso-spacerun:yes'>Â </span>Figure 6<o:p></o:p></span></b></p>
+font-family:"Times New Roman",serif'><span style='mso-tab-count:2'>                   </span><span
+style='mso-spacerun:yes'>      </span></span></b><b><span style='font-family:
+"Times New Roman",serif'>Figure 5 <span style='mso-tab-count:7'>                                                                         </span><span
+style='mso-spacerun:yes'>      </span><span style='mso-spacerun:yes'> </span><span
+style='mso-spacerun:yes'> </span>Figure 6<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
 
@@ -2747,34 +2746,34 @@ style='mso-spacerun:yes'>Â </span>Figure 6<o:p></o:p></span></b></p>
 style='font-family:"Times New Roman",serif;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_7" o:spid="_x0000_i1030" type="#_x0000_t75" style='width:242.25pt;
  height:201.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image013.png" o:title=""/>
+ <v:imagedata src="index_files/image013.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=323 height=269
-src="AI-Image-Detection-Analysis_files/image014.png" v:shapes="Picture_x0020_7"><![endif]><!--[if gte vml 1]><v:shape
+src="index_files/image014.png" v:shapes="Picture_x0020_7"><![endif]><!--[if gte vml 1]><v:shape
  id="Picture_x0020_8" o:spid="_x0000_i1029" type="#_x0000_t75" style='width:243.75pt;
  height:202.5pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image015.png" o:title=""/>
+ <v:imagedata src="index_files/image015.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=325 height=270
-src="AI-Image-Detection-Analysis_files/image016.png" v:shapes="Picture_x0020_8"><![endif]><!--[if gte vml 1]><v:shape
+src="index_files/image016.png" v:shapes="Picture_x0020_8"><![endif]><!--[if gte vml 1]><v:shape
  id="Picture_x0020_9" o:spid="_x0000_i1028" type="#_x0000_t75" style='width:246pt;
  height:202.5pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image017.png" o:title=""/>
+ <v:imagedata src="index_files/image017.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=328 height=270
-src="AI-Image-Detection-Analysis_files/image018.png" v:shapes="Picture_x0020_9"><![endif]><!--[if gte vml 1]><v:shape
+src="index_files/image018.png" v:shapes="Picture_x0020_9"><![endif]><!--[if gte vml 1]><v:shape
  id="Picture_x0020_11" o:spid="_x0000_i1027" type="#_x0000_t75" style='width:243.75pt;
  height:201.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image019.png" o:title=""/>
+ <v:imagedata src="index_files/image019.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=325 height=269
-src="AI-Image-Detection-Analysis_files/image020.png" v:shapes="Picture_x0020_11"><![endif]></span></b><b><span
+src="index_files/image020.png" v:shapes="Picture_x0020_11"><![endif]></span></b><b><span
 style='font-family:"Times New Roman",serif'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'><span
-style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
-style='mso-spacerun:yes'>Â </span><span style='mso-spacerun:yes'>Â Â Â  </span>Figure
-7 <span style='mso-tab-count:7'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Figure
-8 <span style='mso-tab-count:3'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
-style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
-style='mso-spacerun:yes'>Â Â Â Â Â Â Â </span>Figure 9<span style='mso-tab-count:6'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
-class=GramE> <span style='mso-spacerun:yes'>Â </span>Figure</span> 10<o:p></o:p></span></b></p>
+style='mso-tab-count:2'>                        </span><span
+style='mso-spacerun:yes'> </span><span style='mso-spacerun:yes'>    </span>Figure
+7 <span style='mso-tab-count:7'>                                                                            </span>Figure
+8 <span style='mso-tab-count:3'>                                 </span><span
+style='mso-tab-count:2'>                        </span><span
+style='mso-spacerun:yes'>       </span>Figure 9<span style='mso-tab-count:6'>                                                               </span><span
+class=GramE> <span style='mso-spacerun:yes'> </span>Figure</span> 10<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'><o:p>&nbsp;</o:p></span></b></p>
 
@@ -2782,20 +2781,20 @@ class=GramE> <span style='mso-spacerun:yes'>Â </span>Figure</span> 10<o:p></o:p>
 style='font-family:"Times New Roman",serif;mso-no-proof:yes'><!--[if gte vml 1]><v:shape
  id="Picture_x0020_12" o:spid="_x0000_i1026" type="#_x0000_t75" style='width:237pt;
  height:195.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image021.png" o:title=""/>
+ <v:imagedata src="index_files/image021.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=316 height=261
-src="AI-Image-Detection-Analysis_files/image022.png" v:shapes="Picture_x0020_12"><![endif]><!--[if gte vml 1]><v:shape
+src="index_files/image022.png" v:shapes="Picture_x0020_12"><![endif]><!--[if gte vml 1]><v:shape
  id="Picture_x0020_13" o:spid="_x0000_i1025" type="#_x0000_t75" style='width:228.75pt;
  height:189.75pt;visibility:visible;mso-wrap-style:square'>
- <v:imagedata src="AI-Image-Detection-Analysis_files/image023.png" o:title=""/>
+ <v:imagedata src="index_files/image023.png" o:title=""/>
 </v:shape><![endif]--><![if !vml]><img width=305 height=253
-src="AI-Image-Detection-Analysis_files/image024.png" v:shapes="Picture_x0020_13"><![endif]></span></b><b><span
+src="index_files/image024.png" v:shapes="Picture_x0020_13"><![endif]></span></b><b><span
 style='font-family:"Times New Roman",serif'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'><span
-style='mso-tab-count:2'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span>Figure 11<span
-style='mso-tab-count:6'>Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </span><span
-style='mso-spacerun:yes'>Â Â Â Â Â  </span>Figure 12<o:p></o:p></span></b></p>
+style='mso-tab-count:2'>                        </span>Figure 11<span
+style='mso-tab-count:6'>                                                                    </span><span
+style='mso-spacerun:yes'>      </span>Figure 12<o:p></o:p></span></b></p>
 
 </div>
 
