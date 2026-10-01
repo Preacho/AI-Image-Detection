@@ -1,5 +1,4 @@
-# AI-Image-Detection Analysis
-
+# AI-Image-Detection 
 This project aims to determine effective models that can discern AI-Generated Images from a random set of Images. By training the models with a diverse set of image datasets, high accurate predictions were achieved using different machine learning models. 
 
 ## Report
@@ -16,7 +15,7 @@ To install and reproduce this project, follow these steps:
 1. Clone the repository
    
 ``` bash
-git clone https://github.com/Preacho/AI-Image-Detection-Model.git 
+git clone https://github.com/Preacho/AI-Image-Detection.git 
 
 ```
 
