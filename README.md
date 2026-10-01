@@ -43,3 +43,5 @@ python src\training_image_detection_model_randomforest.py ##random forest
 
 ```
 
+## Report
+[View the full analysis report](https://preacho.github.io/AI-Image-Detection-Analysis/)
