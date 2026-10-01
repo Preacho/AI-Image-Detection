@@ -28,7 +28,7 @@ def load_dataset_from_imageset(directory, batch_size = 64, image_size = (96,96),
 
 
 def load_data():
-    """Load train and test data from preprocessed directories"""
+    """Load train and test data from processed directories"""
     
     X_train, y_train, class_names = load_dataset_from_imageset("processed_dataset/train", 64, IMG_SIZE)
     X_test, y_test, _ = load_dataset_from_imageset("processed_dataset/test", 64, IMG_SIZE)
