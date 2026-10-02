@@ -1,5 +1,4 @@
-# AI-Image-Detection Analysis
-
+# AI-Image-Detection 
 This project aims to determine effective models that can discern AI-Generated Images from a random set of Images. By training the models with a diverse set of image datasets, high accurate predictions were achieved using different machine learning models. 
 
 ## Report
@@ -7,7 +6,7 @@ This project aims to determine effective models that can discern AI-Generated Im
 
 ## Built With
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 
 ## 1. Installation
 
@@ -16,7 +15,7 @@ To install and reproduce this project, follow these steps:
 1. Clone the repository
    
 ``` bash
-git clone https://github.com/Preacho/AI-Image-Detection-Model.git 
+git clone https://github.com/Preacho/AI-Image-Detection.git 
 
 ```
 
