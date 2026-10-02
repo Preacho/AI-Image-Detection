@@ -2,7 +2,7 @@
 This project aims to determine effective models that can discern AI-Generated Images from a random set of Images. By training the models with a diverse set of image datasets, high accurate predictions were achieved using different machine learning models. 
 
 ## Report
-[View the full analysis report](https://preacho.github.io/AI-Image-Detection-Analysis/)
+[View the full analysis report](https://preacho.github.io/AI-Image-Detection/)
 
 ## Built With
 
