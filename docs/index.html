@@ -81,21 +81,30 @@ ul
 
 <div class=WordSection1>
 
+<p class=MsoNormal><b><span style='font-size:20.0pt;line-height:115%;
+font-family:"Times New Roman",serif'>Automated Detection of AI-Generated Images
+for Content Moderation</span></b></p>
+
 <p class=MsoNormal><b><span style='font-size:16.0pt;line-height:115%;
 font-family:"Times New Roman",serif'>1. Introduction: </span></b></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman",serif'>The rapid
 development of generative models such as GANs, diffusion models, and their
-descendants has allowed many AI-generated imagery to appear across the
-internet. In addition, AI-images have progressed to a point where humans are
-not able to discern whether an image is real or AI-generated. This study tests
-whether classical machine learning and deep learning approaches can reliably
-distinguish real photographs from AI-generated images when both are drawn from
-the same dataset. Six models were trained and validated on a set of 48,000
-images (24,000 real and 24,000 AI-generated) and then tested using a set of
-12,000 images (6,000 real and 6,000 AI-generated). These span three feature
-strategies: raw pixel values, hand-crafted frequency-domain features (FFT), and
-semantic embeddings from CLIP.</span></p>
+descendants has allowed many AI-generated imagery to appear across social media
+platforms, marketplaces, dating apps, and news feeds at a scale that manual
+review cannot address. Worse, AI-images have progressed to a point where humans
+are not able to discern whether an image is real or AI-generated. For
+platforms, the cost of getting this wrong run in both directions. A false
+negative would mean an AI generative image has slipped through, exposing users
+to misinformation. A false positive would mean a real photograph or artwork is flagged
+as fake, eroding trust in users wanting to use a platform to display their
+work. This study tests whether classical machine learning and deep learning
+approaches can reliably distinguish real photographs from AI-generated images when
+both are drawn from the same dataset. Six models were trained and validated on
+a set of 48,000 images (24,000 real and 24,000 AI-generated) and then tested
+using a set of 12,000 images (6,000 real and 6,000 AI-generated). These span three
+feature strategies: raw pixel values, hand-crafted frequency-domain features
+(FFT), and semantic embeddings from CLIP.</span></p>
 
 <p class=MsoNormal><b><span style='font-size:16.0pt;line-height:115%;
 font-family:"Times New Roman",serif'>2. Methodology:</span></b></p>
@@ -613,13 +622,13 @@ over the best non-CLIP model. FFT features also provide a smaller but
 consistent secondary improvement across all classic models. </span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman",serif'>Future
-work should focus on testing more up to date image generation models to see
-whether the current models are still capable of discerning AI-generated and
-human crafted images. In addition, some testing is required to see whether the
-models’ ability to discern images created by AI-generators they were never
-trained on. </span></p>
-
-<p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
+work should focus on two operational priorities. First, testing against the
+newest generation of image generators is necessary to confirm whether these
+detection rates hold as generation quality continues to improve. Second,
+evaluating cross-generator performance. Whether models trained on one family of
+generators can detect images from generators they have never seen is essential
+for any deployment where the underlying technology is expected to evolve faster
+than the detector can be retrained.</span></p>
 
 <p class=MsoNormal><b><span style='font-size:16.0pt;line-height:115%;
 font-family:"Times New Roman",serif'>Figures: </span></b></p>
@@ -672,8 +681,8 @@ width=316 height=261 id="Picture 12" src="index_files/image011.png"><img
 width=305 height=253 id="Picture 13" src="index_files/image012.png"></span></b></p>
 
 <p class=MsoNormal><b><span style='font-family:"Times New Roman",serif'>                        Figure
-11                                                                          Figure
-12</span></b></p>
+11                                                                         
+Figure 12</span></b></p>
 
 </div>
 
